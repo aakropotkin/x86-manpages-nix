@@ -21,7 +21,7 @@ pkgs.stdenv.mkDerivation {
     done
   '';
 
-  meta = with pkgs.stdenv.lib; {
+  meta = with pkgs.lib; {
     description = "Manpages for x86 instructions";
     homepage = "https://github.com/ttmo-O/x86-manpages";
     #license = licenses.unfree;
